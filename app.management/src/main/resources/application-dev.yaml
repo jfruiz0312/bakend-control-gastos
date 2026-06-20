@@ -23,3 +23,8 @@ logging:
   level:
     com.fernandoruiz.app.management: DEBUG
     org.hibernate.SQL: DEBUG
+# ... (el resto de tu configuración de base de datos, jpa, etc.)
+
+app:
+  cors:
+    allowed-origins: ${ALLOWED_ORIGINS:http://localhost:5173}

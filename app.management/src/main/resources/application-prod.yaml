@@ -19,3 +19,6 @@ spring:
 logging:
   level:
     com.fernandoruiz.app.management: INFO
+app:
+  cors:
+    allowed-origins: ${ALLOWED_ORIGINS}
