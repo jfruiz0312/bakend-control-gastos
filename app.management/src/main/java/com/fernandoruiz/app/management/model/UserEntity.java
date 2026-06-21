@@ -1,6 +1,7 @@
 package com.fernandoruiz.app.management.model;
 
 import com.fernandoruiz.app.management.model.converter.BooleanToShortConverter;
+import com.fernandoruiz.app.management.model.UserRoleEntity;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Convert;
