@@ -2,8 +2,8 @@ spring:
   application:
     name: app.management
   profiles:
-    active: dev
-
+    active: test
+#dev
 server:
   servlet:
     context-path: /
